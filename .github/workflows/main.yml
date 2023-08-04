@@ -1,0 +1,7 @@
+name: Generated main
+on:
+  workflow_call:
+jobs:
+  call-sub-workflow: 
+    needs: build
+    uses: ahmedhassan16/artifacts/.github/workflows/generated.yml@latest
